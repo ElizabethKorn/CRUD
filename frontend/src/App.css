@@ -1,0 +1,74 @@
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  color: #333;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+}
+
+.addBtn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.refreshBtn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2196f3;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.notesList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.noteCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.deleteBtn {
+  border: none;
+  background: transparent;
+  color: #e74c3c;
+  cursor: pointer;
+  font-size: 18px;
+}
